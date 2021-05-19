@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_rules">
+
+    <fragment
+        android:id="@+id/navigation_rules"
+        android:name="com.ironical_groundwork.test_task.ui.rules.RulesFragment"
+        android:label="@string/title_rules"
+        tools:layout="@layout/fragment_rules" />
+
+    <fragment
+        android:id="@+id/navigation_players"
+        android:name="com.ironical_groundwork.test_task.ui.players.PlayersFragment"
+        android:label="@string/title_players"
+        tools:layout="@layout/fragment_players" />
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="com.ironical_groundwork.test_task.ui.gallery.GalleryFragment"
+        android:label="@string/title_gallery"
+        tools:layout="@layout/fragment_gallery" />
+</navigation>

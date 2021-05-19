@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Спорт 24/7</string>
+    <string name="title_rules">Правила</string>
+    <string name="title_players">Игроки</string>
+    <string name="title_gallery">Галерея</string>
+
+    <string name="btn_basketball">Баскетбол</string>
+    <string name="btn_american_football">Американский футбол</string>
+    <string name="btn_tennis">Теннис</string>
+    <string name="btn_boxing">Бокс</string>
+</resources>
